@@ -1,8 +1,9 @@
+package src;
 public class Ticket {
     private String movieTitle;
     private String showTime;
 
-    Ticket(String title, String time){
+    public Ticket(String title, String time){
         this.movieTitle = title;
         this.showTime = time;
     }
